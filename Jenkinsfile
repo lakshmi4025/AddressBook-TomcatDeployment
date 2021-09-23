@@ -3,14 +3,14 @@ pipeline {
     
     tools
     {
-       maven "Maven"
+       maven "mvn"
     }
      
     stages {
       stage('checkout') {
            steps {
              
-                git branch: 'master', url: 'https://github.com/Nishad47/AddressBook-TomcatDeployment.git'
+                git branch: 'master', url: 'https://github.com/lakshmi4025/AddressBook-TomcatDeployment.git'
              
           }
         }
