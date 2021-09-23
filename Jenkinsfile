@@ -1,9 +1,9 @@
 pipeline {
-    agent { label 'window' }
+    agent any
     
     tools
     {
-       maven "maven"
+       maven "mvn"
     }
      
     stages {
