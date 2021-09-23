@@ -1,9 +1,9 @@
 pipeline {
-    agent any
+    agent { label 'master' }
     
     tools
     {
-       maven "mvn"
+       maven "maven"
     }
      
     stages {
